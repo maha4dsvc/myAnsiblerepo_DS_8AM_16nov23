@@ -11,4 +11,12 @@
     apt: 
       name: wget
       state: present
+
+  - name: install git on ansible nodes
+    apt:
+      name: git
+      state: present
+      
+
+
       
