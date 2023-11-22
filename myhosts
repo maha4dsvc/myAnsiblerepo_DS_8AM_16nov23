@@ -17,10 +17,6 @@
 [myredharservers]
 172.31.23.44
 
-[mywebservers:vars]
-variable= value 
-mywebpackonubuntu= apache2
-mywebpackonredhat= httpd
 
 
 
