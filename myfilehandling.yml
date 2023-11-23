@@ -20,7 +20,7 @@
 
   - name: copy dyno file  into node side
     templates:
-         src:
+         src: myindexfile.j2
          dest:  /var/www/html/index.html
 
     
