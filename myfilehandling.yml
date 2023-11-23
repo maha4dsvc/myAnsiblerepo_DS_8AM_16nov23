@@ -18,4 +18,9 @@
        dest: /home/ubuntu/apache-tomcat-10.0.20.tar.gz
        force_basic_auth: yes
 
+  - name: copy dyno file  into node side
+    templates:
+         src:
+         dest:  /var/www/html/index.html
+
     
